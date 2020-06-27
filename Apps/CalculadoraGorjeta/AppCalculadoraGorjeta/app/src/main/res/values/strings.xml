@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">CalculadoraGorjeta</string>
+    <string name="app_name">Calculadora de Gorjeta</string>
+    <string name="edit_valor">Digite o valor da conta ex: 36.50</string>
+    <string name="text_porcentagem">0%</string>
+    <string name="text_label_gorjeta">Gorjeta</string>
+    <string name="text_label_total">Total</string>
+    <string name="text_gorjeta">R$ 0.00</string>
+    <string name="text_total">R$ 0.00</string>
+    <string name="content_description">Imagem com dois circulos sobrepostos.
+                                       circulo da direita de cor laranja claro contem um sifrão ao centro
+                                       e o da esquerda e de cor laranja escuro.</string>
 </resources>
