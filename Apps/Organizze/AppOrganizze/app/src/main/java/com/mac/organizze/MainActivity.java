@@ -1,9 +1,13 @@
 package com.mac.organizze;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
 import com.heinrichreimersoftware.materialintro.slide.FragmentSlide;
+import com.mac.organizze.activity.CadastroActivity;
+import com.mac.organizze.activity.LoginActivity;
 
 public class MainActivity extends IntroActivity {
 
@@ -33,5 +37,18 @@ public class MainActivity extends IntroActivity {
                 .background(android.R.color.white)
                 .fragment(R.layout.intro_4)
                 .build());
+
+        addSlide(new FragmentSlide.Builder()
+                .background(android.R.color.white)
+                .fragment(R.layout.intro_cadastro)
+                .build());
+    }
+
+    public void OnClick_btnCadastrar(View view) {
+        startActivity(new Intent(this, CadastroActivity.class));
+    }
+
+    public void OnClick_btnEntrar(View view) {
+        startActivity(new Intent(this, LoginActivity.class));
     }
 }
