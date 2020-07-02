@@ -7,28 +7,34 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
+        android:background="@color/colorPrimary"
         android:onClick="OnClick_btnCadastrar"
-        android:text="Cadastre-se"
+        android:text="@string/btnCadastrar"
+        android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textSubTitleIntroCadastro" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textSubTitleIntroCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:text="Junte-se a mais de meio milhao\n de pessoas e comece já"
+        android:text="@string/text_subtitle_introCadastro"
         android:textColor="@android:color/darker_gray"
         app:layout_constraintBottom_toTopOf="@+id/button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textTitleIntroCadastro" />
 
     <TextView
         android:id="@+id/textView6"
@@ -36,7 +42,7 @@
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:onClick="OnClick_btnEntrar"
-        android:text="Já tenho conta"
+        android:text="@string/btnEntrar"
         android:textColor="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -44,15 +50,15 @@
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textTitleIntroCadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Crie sua conta grátis"
+        android:text="@string/text_title_IntroCadastro"
         android:textColor="@android:color/black"
         android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintBottom_toTopOf="@+id/textSubTitleIntroCadastro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
