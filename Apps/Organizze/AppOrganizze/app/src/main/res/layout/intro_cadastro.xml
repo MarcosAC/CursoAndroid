@@ -19,7 +19,7 @@
         android:onClick="OnClick_btnCadastrar"
         android:text="@string/btnCadastreSe"
         android:textColor="@android:color/white"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintBottom_toTopOf="@+id/text_entrar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textSubTitleIntroCadastro" />
@@ -37,12 +37,12 @@
         app:layout_constraintTop_toBottomOf="@+id/textTitleIntroCadastro" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/text_entrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
-        android:onClick="OnClick_btnEntrar"
-        android:text="@string/btnEntrar"
+        android:onClick="OnClick_textEntrar"
+        android:text="@string/text_entrar"
         android:textColor="@android:color/darker_gray"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -3,10 +3,11 @@
     <string name="app_name">Organizze</string>
     <string name="OnClick_btnCadastrar">btnCadastrar</string>
     <string name="btnCadastreSe">Cadastre-se</string>
-    <string name="OnClick_btnEntrar">btnEntrar</string>
+    <string name="OnClick_textEntrar">btnEntrar</string>
     <string name="text_title_IntroCadastro">Crie sua conta grátis</string>
     <string name="text_subtitle_introCadastro">Junte-se a mais de meio milhao\n de pessoas e comece já</string>
     <string name="text_title_ActivityCadastro">Crie sua conta grátis</string>
+    <string name="text_entrar">Já tenho conta</string>
 
     <!--Activity Cadastro-->
     <string name="editNome_hint">Nome</string>

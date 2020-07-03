@@ -49,7 +49,7 @@ public class MainActivity extends IntroActivity {
         startActivity(new Intent(this, CadastroActivity.class));
     }
 
-    public void OnClick_btnEntrar(View view) {
+    public void OnClick_textEntrar(View view) {
         startActivity(new Intent(this, LoginActivity.class));
     }
 }
