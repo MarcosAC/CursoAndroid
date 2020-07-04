@@ -1,7 +1,7 @@
 <resources>
     <!--Activity IntroCadastro-->
     <string name="app_name">Organizze</string>
-    <string name="OnClick_btnCadastrar">btnCadastrar</string>
+    <string name="OnClick_btnCadastreSe">btnCadastrar</string>
     <string name="btnCadastreSe">Cadastre-se</string>
     <string name="OnClick_textEntrar">btnEntrar</string>
     <string name="text_title_IntroCadastro">Crie sua conta grátis</string>

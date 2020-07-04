@@ -93,6 +93,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
+        android:onClick="@string/OnClick_btnCadastrar"
         android:text="@string/btnCadastrar"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/text_termoUso"

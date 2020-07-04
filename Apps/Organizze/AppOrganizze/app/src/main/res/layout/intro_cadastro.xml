@@ -16,7 +16,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
         android:background="@color/colorPrimary"
-        android:onClick="OnClick_btnCadastrar"
+        android:onClick="OnClick_btnCadastreSe"
         android:text="@string/btnCadastreSe"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/text_entrar"

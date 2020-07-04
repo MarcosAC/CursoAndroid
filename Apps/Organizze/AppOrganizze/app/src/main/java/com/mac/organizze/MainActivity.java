@@ -45,7 +45,7 @@ public class MainActivity extends IntroActivity {
                 .build());
     }
 
-    public void OnClick_btnCadastrar(View view) {
+    public void OnClick_btnCadastreSe(View view) {
         startActivity(new Intent(this, CadastroActivity.class));
     }
 
