@@ -54,7 +54,7 @@
         android:drawablePadding="5dp"
         android:drawableStart="@drawable/ic_baseline_email_24"
         android:ems="10"
-        android:hint="@string/editNome_hint"
+        android:hint="@string/editEmail_hint"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toTopOf="@+id/editSenha"
@@ -99,8 +99,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editSenha" />
-
-    <!--android:onClick="OnClick_btnCadastrar"-->
 
     <TextView
         android:id="@+id/text_termoUso"
