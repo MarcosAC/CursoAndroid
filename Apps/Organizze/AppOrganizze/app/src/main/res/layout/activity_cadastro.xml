@@ -93,13 +93,14 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="@string/OnClick_btnCadastrar"
         android:text="@string/btnCadastrar"
         android:textColor="@android:color/white"
         app:layout_constraintBottom_toTopOf="@+id/text_termoUso"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editSenha" />
+
+    <!--android:onClick="OnClick_btnCadastrar"-->
 
     <TextView
         android:id="@+id/text_termoUso"
